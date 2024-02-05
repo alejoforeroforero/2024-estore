@@ -1,0 +1,39 @@
+.product-cart-summary{
+    background-color: azure;
+    border-radius: 12px;
+    padding: 30px 20px 50px;
+    color:#666;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+
+    h2{
+        color:#999;
+        font-weight: 200;        
+    }
+
+    p{
+        margin: 15px;
+    }
+
+    h3{
+        color:#666;
+        margin: 15px;
+    }
+
+    div{
+        text-align: center;
+        padding: 20px;
+    }
+
+    button{
+        background-color: #fff;
+        padding: 10px 30px;
+        border: 1px solid #999;
+        cursor: pointer;
+        border-radius:12px;
+
+        &:hover{
+            background-color: aliceblue;
+        }
+    }
+}

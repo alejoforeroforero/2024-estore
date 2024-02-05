@@ -1,0 +1,15 @@
+.category-checkbox {
+  display: flex;
+  align-items: center;
+  color: #999;
+  padding: 4px 0px;
+
+  input {
+    margin-right: 8px;
+    margin-left: 30px;
+  }
+
+  input:checked:before {
+    background-color: green;
+  }
+}

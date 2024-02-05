@@ -1,0 +1,14 @@
+.products-general-container {
+  display: grid;
+  grid-template-columns: 220px auto;
+
+  .products-categories-container {
+    border-right: 1px solid #d7d7d7;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .products-general-container {
+    grid-template-columns: 1fr;
+  }
+}

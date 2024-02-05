@@ -1,0 +1,22 @@
+.cart-icon-container {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  background-color: gold;
+  padding: 10px 2px;
+  border-radius: 12px;
+  color: #444;
+  cursor: pointer;
+
+  i {
+    margin: 0 6px;
+  }
+
+  &:active{
+    background-color: red;
+  }
+
+  &:hover {
+    background-color: rgb(139, 217, 243);
+  }
+}

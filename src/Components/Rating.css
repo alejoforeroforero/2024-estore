@@ -1,0 +1,8 @@
+.product-rating {
+  margin: 12px 0;
+
+  i {
+    color: gold;
+    font-size: small;
+  }
+}

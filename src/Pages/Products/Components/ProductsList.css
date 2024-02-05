@@ -1,0 +1,22 @@
+.product-card-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2vw;
+}
+
+.categories-selected{
+  text-align: center;
+  height: 40px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#444;
+
+  .categories-selected-span{
+    font-weight: 600;
+  }
+
+}
